@@ -14,14 +14,3 @@ def write(key, value):
 
 def delete(key):
     nvs.erase_key(key)
-
-
-
-
-
-write('wifi_ssid', 'hotpocket')
-write('wifi_psk', 'k33pitc00l')
-
-
-read('wifi_ssid')
-read('wifi_psk')

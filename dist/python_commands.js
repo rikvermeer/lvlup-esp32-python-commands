@@ -185,6 +185,7 @@ def delete(key):
 
 
 
+
 @print_as_json
 def cmd(key):
     return read(key)
@@ -282,6 +283,7 @@ def write(key, value):
 
 def delete(key):
     nvs.erase_key(key)
+
 
 
 
